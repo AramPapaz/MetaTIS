@@ -177,7 +177,7 @@ def getFeatures(seq,codons,rbps,atgeffs,nceffs):
                 arr.append("No Stop Codon")
                 arr.append("No Stop Codon")
             else:
-                arr.append((len(aa)*3)-1)
+                arr.append(z+(len(aa)*3)-1)
                 arr.append(len(aa))
             arr.append(aa)
             datapos.append(arr)
