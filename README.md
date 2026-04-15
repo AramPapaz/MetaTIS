@@ -8,5 +8,5 @@ Ribosomes typically commence translation at a methionine-encoding AUG codon flan
 *pandas* ==2.2.2  
 *numpy* == 2.0.0  
 *torch* == 2.8.0  
-*transformers* @ git+https://github.com/huggingface/transformers.git@b1b46555cd461b884c632444513a4d3097bdbd95  
+*transformers* == 4.55.3  
 *peft* == 0.17.0  
