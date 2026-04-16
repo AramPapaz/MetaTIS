@@ -7,7 +7,7 @@ The *Data* folder contains all the TIS reported from five distinct studies. In t
 The *Models* folder contains the calibrated meta-model plus the NT and ESM2 optimal checkpoints having the lowest loss on the validation set.   
   
 The *scripts* folder contains the *usage.ipynb* that shows how these models can be used to obtain TIS predictions and the *IntegratedGradients.ipynb* that illustrates the code used to compute the integrated gradients.
-## Python and package versions
+## Python & Package versions
 *python* ==  3.12.4  
 *scikit-learn* == 1.7.2  
 *pandas* ==2.2.2  
