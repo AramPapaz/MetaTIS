@@ -3,7 +3,10 @@ Ribosomes typically commence translation at a methionine-encoding AUG codon flan
 
 ## Data & Models
 The *Data* folder contains all the TIS reported from five distinct studies. In the *Seq* column, *S* represents the position of the start codons. The train, validation, and test datasets for NT and ESM2 are available on [Hugging Face](https://huggingface.co/datasets/Arampapaz/MetaTIS_Train_Val_Test).  
-The *Models* folder contains the calibrated meta-model plus the NT and ESM2 optimal checkpoints having the lowest loss on the validation set. *usage.ipynb* shows how these models can be used to obtain TIS predictions.
+  
+The *Models* folder contains the calibrated meta-model plus the NT and ESM2 optimal checkpoints having the lowest loss on the validation set.   
+  
+The *scripts* folder contains the *usage.ipynb* that shows how these models can be used to obtain TIS predictions and the *IntegratedGradients.ipynb* that illustrates the code used to compute the integrated gradients.
 ## Python and package versions
 *python* ==  3.12.4  
 *scikit-learn* == 1.7.2  
@@ -12,3 +15,4 @@ The *Models* folder contains the calibrated meta-model plus the NT and ESM2 opti
 *torch* == 2.8.0  
 *transformers* == 4.55.3  
 *peft* == 0.17.0  
+*captum* == 0.8.0
